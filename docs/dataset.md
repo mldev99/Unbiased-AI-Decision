@@ -5,7 +5,7 @@ This document outlines recommended datasets for detecting, measuring, and mitiga
 ## Overview
 The datasets below are selected for their relevance to real-world bias in AI decisions. Each includes protected attributes (e.g., race, gender) that can reveal unfairness. Use them to train models, compute fairness metrics, and test debiasing techniques.
 
-## Recommended Datasets
+## Datasets
 
 ### 1. Adult Census Income Dataset (UCI Machine Learning Repository)
 - **Description**: Predicts whether an individual's annual income exceeds $50,000 based on census data.
@@ -55,5 +55,3 @@ The datasets below are selected for their relevance to real-world bias in AI dec
 - Preprocess for missing values and categorical encoding.
 - Use libraries like Fairlearn or AIF360 for metrics (e.g., statistical parity).
 - Anonymize sensitive data and document ethics.
-
-For code examples or further details, refer to the project repository.
